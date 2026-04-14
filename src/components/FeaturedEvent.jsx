@@ -54,9 +54,9 @@ const FeaturedEvent = () => {
           <p className="featured-subtitle">{featured.subtitle}</p>
 
           <div className="featured-meta">
-            <span>📅 {featured.date}</span>
-            <span>📍 {featured.location}</span>
-            <span>👥 {featured.persons.toLocaleString()} attending</span>
+            <span> {featured.date}</span>
+            <span> {featured.location}</span>
+            <span> {featured.persons.toLocaleString()} attending</span>
           </div>
 
           <p className="featured-desc">{featured.description}</p>

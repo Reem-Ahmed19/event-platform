@@ -1,7 +1,4 @@
-/* ─────────────────────────────────────────────
-   EVENJO  –  Global Stylesheet
-   Dark concert-ticket platform UI
-───────────────────────────────────────────── */
+
 
 /* ── Google Fonts ── */
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
@@ -178,7 +175,7 @@ input, select, textarea { font-family: inherit; }
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background: url('https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=1600&fit=crop') center/cover no-repeat;
+  background: url('../src/assetes/download\ \(23\).jpg') center/cover no-repeat;
 }
 .hero-overlay {
   position: absolute; inset: 0;

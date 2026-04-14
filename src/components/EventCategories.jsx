@@ -3,10 +3,10 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
 const categories = [
-  { key: 'concerts', labelKey: 'section_concert', icon: '🎵', color: '#c855f7', count: 48 },
-  { key: 'shows',    labelKey: 'section_show',    icon: '🎭', color: '#e040b5', count: 32 },
-  { key: 'sports',   labelKey: 'section_sport',   icon: '⚽', color: '#5b8af7', count: 25 },
-  { key: 'festivals',labelKey: 'section_festival',icon: '🎪', color: '#f7a255', count: 19 },
+  { key: 'concerts', labelKey: 'section_concert', icon: '♫', color: '#c855f7', count: 48 },
+  { key: 'shows',    labelKey: 'section_show',    icon: '📽', color: '#e040b5', count: 32 },
+  { key: 'sports',   labelKey: 'section_sport',   icon: '⚡︎', color: '#5b8af7', count: 25 },
+{ key: 'festivals', labelKey: 'section_festival', icon: '✺', color: '#f7a255', count: 19 }
 ];
 
 const EventCategories = () => {

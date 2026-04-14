@@ -17,10 +17,10 @@ const Hero = () => {
   const [search, setSearch] = useState({ what: '', where: '', when: '' });
 
   const tabs = [
-    { key: 'concerts', label: t('hero_tab_concerts'), icon: '🎵' },
-    { key: 'shows', label: t('hero_tab_shows'), icon: '🎭' },
-    { key: 'sports', label: t('hero_tab_sports'), icon: '⚽' },
-    { key: 'festivals', label: t('hero_tab_festivals'), icon: '🎪' },
+    { key: 'concerts', label: t('hero_tab_concerts'), icon: '' },
+    { key: 'shows', label: t('hero_tab_shows'), icon: '' },
+    { key: 'sports', label: t('hero_tab_sports'), icon: '' },
+    { key: 'festivals', label: t('hero_tab_festivals'), icon: '' },
   ];
 
   return (
@@ -80,7 +80,7 @@ const Hero = () => {
           {/* Search Inputs */}
           <div className="hero-search-row">
             <div className="hero-search-field">
-              <span className="field-icon">🔍</span>
+              <span className="field-icon"></span>
               <input
                 type="text"
                 placeholder={t('hero_search_what')}
@@ -91,7 +91,7 @@ const Hero = () => {
             </div>
             <div className="hero-search-divider" />
             <div className="hero-search-field">
-              <span className="field-icon">📍</span>
+              <span className="field-icon"></span>
               <input
                 type="text"
                 placeholder={t('hero_search_where')}
@@ -102,7 +102,7 @@ const Hero = () => {
             </div>
             <div className="hero-search-divider" />
             <div className="hero-search-field">
-              <span className="field-icon">📅</span>
+              <span className="field-icon"></span>
               <input
                 type="date"
                 value={search.when}
@@ -115,9 +115,9 @@ const Hero = () => {
 
           {/* Badges */}
           <div className="hero-badges">
-            <span className="hero-badge">📅 {t('hero_badge_book')}</span>
-            <span className="hero-badge">🔄 {t('hero_badge_refund')}</span>
-            <span className="hero-badge">💡 {t('hero_badge_deals')}</span>
+            <span className="hero-badge"> {t('hero_badge_book')}</span>
+            <span className="hero-badge"> {t('hero_badge_refund')}</span>
+            <span className="hero-badge"> {t('hero_badge_deals')}</span>
           </div>
         </motion.div>
       </div>

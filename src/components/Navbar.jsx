@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="navbar-inner">
         {/* Logo */}
         <Link to="/" className="navbar-logo">
-          <span className="logo-italic">ℰ</span>venjo
+          <span className="logo-italic"></span>venjo
         </Link>
 
         {/* Desktop Nav Links */}
@@ -62,7 +62,7 @@ const Navbar = () => {
         <div className="navbar-controls">
           {/* Language Toggle */}
           <button className="lang-toggle" onClick={toggleLanguage}>
-            <span className="lang-icon">🌐</span>
+            <span className="lang-icon"></span>
             <span className="lang-label">{isArabic ? 'EN' : 'عر'}</span>
           </button>
 
@@ -103,7 +103,7 @@ const Navbar = () => {
             </a>
           ))}
           <button className="lang-toggle mobile-lang" onClick={toggleLanguage}>
-            🌐 {isArabic ? 'English' : 'العربية'}
+             {isArabic ? 'English' : 'العربية'}
           </button>
         </motion.div>
       )}

@@ -203,11 +203,11 @@ export const festivals = [
 ];
 
 export const topSingers = [
-  { id: 1, name: 'Drake', location: 'Toronto, Canada', image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=60&h=60&fit=crop&face' },
-  { id: 2, name: 'Taylor Swift', location: 'Nashville, TN', image: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=60&h=60&fit=crop' },
-  { id: 3, name: 'Ed Sheeran', location: 'Halifax, England', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop' },
-  { id: 4, name: 'Billie Eilish', location: 'Los Angeles, CA', image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=60&h=60&fit=crop' },
-  { id: 5, name: 'Adele', location: 'London, UK', image: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=60&h=60&fit=crop' },
+  { id: 1, name: 'Drake', location: 'Toronto, Canada', image: './assetes/drake.jpg' },
+  { id: 2, name: 'Taylor Swift', location: 'Nashville, TN', image: './assetes/Taylor Swift.jpg' },
+  { id: 3, name: 'Ed Sheeran', location: 'Halifax, England', image: './assetes/ed.jpg' },
+  { id: 4, name: 'Billie Eilish', location: 'Los Angeles, CA', image: './assetes/Billie Eilish.jpg' },
+  { id: 5, name: 'Adele', location: 'London, UK', image: './assetes/adele.jpg' },
 ];
 
 export const testimonials = [

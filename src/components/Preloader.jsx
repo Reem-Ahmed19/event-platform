@@ -24,7 +24,7 @@ const Preloader = ({ isVisible }) => {
               animate={{ opacity: [0.5, 1, 0.5] }}
               transition={{ repeat: Infinity, duration: 1.5, ease: 'easeInOut' }}
             >
-              <span className="logo-italic">ℰ</span>
+              <span className="logo-italic"></span>
               <span>venjo</span>
             </motion.div>
 
